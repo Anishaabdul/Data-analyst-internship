@@ -154,3 +154,23 @@ data patterns and trends.
 ---
 # Outcome
 Developed practical skills in data visualization and insight generation using Python.
+
+# Power BI Dashboard Task
+Overview
+
+This dashboard shows total sales by category and sales performance by region. It uses interactive visuals like cards, bar charts, and a region slicer.
+
+---
+Insights
+
+Technology category has the highest sales.
+
+Office Supplies and Furniture have similar sales.
+
+Sales vary across regions, showing regional differences in performance.
+
+---
+File
+
+dashboard.pdf – Exported Power BI visuals
+---
