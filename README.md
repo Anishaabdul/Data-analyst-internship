@@ -156,12 +156,13 @@ data patterns and trends.
 Developed practical skills in data visualization and insight generation using Python.
 
 #  Task 7:Power BI Dashboard Task
-Overview
+# Overview
 
 This dashboard shows total sales by category and sales performance by region. It uses interactive visuals like cards, bar charts, and a region slicer.
 
 ---
-Insights
+
+# Insights
 
 Technology category has the highest sales.
 
@@ -169,8 +170,59 @@ Office Supplies and Furniture have similar sales.
 
 Sales vary across regions, showing regional differences in performance.
 
+
 ---
-File
+# File
 
 dashboard.pdf – Exported Power BI visuals
+
 ---
+
+# Task 8: SQL Window Functions – Ranking & Running Totals
+# Description
+
+This task focuses on using SQL Window Functions to perform advanced analysis such as ranking, running totals, and month-over-month growth. The analysis is done using a sales dataset imported into SQL.
+
+Tools Used
+
+PostgreSQL / MySQL Workbench
+
+SQL (Window Functions)
+
+---
+
+# Dataset
+
+Global Superstore Dataset (CSV imported into SQL)
+
+Key Operations Performed
+
+Calculated total sales per customer
+
+Ranked customers by sales using ROW_NUMBER, RANK, and DENSE_RANK
+
+Calculated running total of sales
+
+Calculated month-over-month (MoM) growth using LAG()
+
+Found top 3 products per category
+
+Exported results to CSV files
+
+Saved all queries in a single .sql file
+
+---
+
+# Files Included
+
+task8_window.sql
+
+ranked_customers.csv
+
+mom_growth.csv
+
+insights_task8.txt
+
+# Outcome
+
+Gained hands-on experience with SQL window functions for analytical reporting and business insights.
