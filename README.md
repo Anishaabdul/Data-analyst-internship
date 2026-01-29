@@ -226,3 +226,53 @@ insights_task8.txt
 # Outcome
 
 Gained hands-on experience with SQL window functions for analytical reporting and business insights.
+
+# Task 9: SQL Data Modeling – Star Schema
+# Description
+
+This task involves designing and implementing a Star Schema using SQL for analytical reporting. A fact table and multiple dimension tables were created from a sales dataset.
+
+---
+# Tools Used
+
+PostgreSQL / MySQL
+
+SQL
+
+dbdiagram.io / draw.io (for schema diagram)
+
+---
+# Dataset
+
+Global Superstore / Retail Sales Dataset
+
+---
+# Work Done
+
+Identified fact and dimension tables
+
+Created dimension tables with primary keys
+
+Created fact table with foreign keys
+
+Loaded data into dimensions and fact table
+
+Created indexes on join keys
+
+Ran analytical queries using star schema joins
+
+Exported schema diagram and query outputs
+
+---
+# Files Included
+
+task9_star_schema.sql
+
+star_schema_diagram.png / pdf
+
+analysis_outputs.csv
+
+---
+# Outcome
+
+Understood data warehouse modeling concepts and how star schemas support BI reporting.
