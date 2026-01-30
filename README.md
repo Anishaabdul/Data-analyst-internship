@@ -165,28 +165,23 @@ This dashboard shows total sales by category and sales performance by region. It
 # Insights
 
 Technology category has the highest sales.
-
 Office Supplies and Furniture have similar sales.
-
 Sales vary across regions, showing regional differences in performance.
-
 
 ---
 # File
-
 dashboard.pdf – Exported Power BI visuals
 
 ---
-
 # Task 8: SQL Window Functions – Ranking & Running Totals
 # Description
 
 This task focuses on using SQL Window Functions to perform advanced analysis such as ranking, running totals, and month-over-month growth. The analysis is done using a sales dataset imported into SQL.
 
-Tools Used
+---
+# Tools Used
 
 PostgreSQL / MySQL Workbench
-
 SQL (Window Functions)
 
 ---
@@ -194,21 +189,13 @@ SQL (Window Functions)
 # Dataset
 
 Global Superstore Dataset (CSV imported into SQL)
-
 Key Operations Performed
-
 Calculated total sales per customer
-
 Ranked customers by sales using ROW_NUMBER, RANK, and DENSE_RANK
-
 Calculated running total of sales
-
 Calculated month-over-month (MoM) growth using LAG()
-
 Found top 3 products per category
-
 Exported results to CSV files
-
 Saved all queries in a single .sql file
 
 ---
@@ -216,17 +203,16 @@ Saved all queries in a single .sql file
 # Files Included
 
 task8_window.sql
-
 ranked_customers.csv
-
 mom_growth.csv
-
 insights_task8.txt
 
+---
 # Outcome
 
 Gained hands-on experience with SQL window functions for analytical reporting and business insights.
 
+---
 # Task 9: SQL Data Modeling – Star Schema
 # Description
 
@@ -236,9 +222,7 @@ This task involves designing and implementing a Star Schema using SQL for analyt
 # Tools Used
 
 PostgreSQL / MySQL
-
 SQL
-
 dbdiagram.io / draw.io (for schema diagram)
 
 ---
@@ -250,29 +234,62 @@ Global Superstore / Retail Sales Dataset
 # Work Done
 
 Identified fact and dimension tables
-
 Created dimension tables with primary keys
-
 Created fact table with foreign keys
-
 Loaded data into dimensions and fact table
-
 Created indexes on join keys
-
 Ran analytical queries using star schema joins
-
 Exported schema diagram and query outputs
 
 ---
 # Files Included
 
 task9_star_schema.sql
-
 star_schema_diagram.png / pdf
 
+# Task 10: Python EDA – Summary & Outlier Detection
+# Description
+
+This task focuses on performing Exploratory Data Analysis (EDA) using Python.
+The analysis includes summary statistics, missing value checks, data visualization, outlier detection using the IQR method, and correlation analysis.
+
+---
+# Tools Used
+
+Jupyter Notebook
+Python
+pandas, numpy, matplotlib
+
+---
+# Dataset
+
+Students Performance in Exams dataset
+Numeric column analyzed: Math Score
+
+---
+# Steps Performed
+
+Loaded and explored the dataset
+Generated descriptive statistics
+Checked missing values
+Visualized data using histogram and boxplot
+Detected outliers using IQR method
+Created outlier flag column
+Removed outliers
+Generated correlation matrix
+Exported cleaned dataset
+
+---
+# Files Included
+
+task10_eda.ipynb – Jupyter Notebook with full analysis
+cleaned_dataset.csv – Cleaned dataset after outlier removal
+eda_findings.txt – Summary of insights
 analysis_outputs.csv
 
 ---
 # Outcome
 
 Understood data warehouse modeling concepts and how star schemas support BI reporting.
+
+---
