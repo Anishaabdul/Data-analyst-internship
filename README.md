@@ -247,6 +247,7 @@ Exported schema diagram and query outputs
 task9_star_schema.sql
 star_schema_diagram.png / pdf
 
+---
 # Task 10: Python EDA – Summary & Outlier Detection
 # Description
 
@@ -291,5 +292,51 @@ analysis_outputs.csv
 # Outcome
 
 Understood data warehouse modeling concepts and how star schemas support BI reporting.
+
+---
+# Task 11 – A/B Testing (Hypothesis Testing)
+# Objective
+
+To perform A/B testing using Python and determine whether there is a statistically significant difference between two variants based on conversions.
+
+---
+# Dataset
+The dataset was downloaded from Kaggle and contains user-level data with the following columns:
+User_ID
+Variant (A / B)
+Clicks
+Conversions
+
+---
+# Tools & Libraries Used
+Python
+Jupyter Notebook
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+
+---
+# Steps Performed
+Loaded and explored the dataset
+Split data into Control (Variant A) and Test (Variant B) groups
+Defined null and alternative hypotheses
+Calculated conversion rates
+Performed a two-sample t-test
+Interpreted p-value and results
+Visualized conversions using a bar chart
+Provided a final recommendation
+
+---
+# Result
+Based on the p-value at a 5% significance level, a decision was made on whether Variant B performs better than Variant A.
+
+---
+# Files Included
+task11_abtest.ipynb
+ab_test_summary.csv
+final_recommendation.txt
+README.md
 
 ---
