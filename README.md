@@ -340,3 +340,39 @@ final_recommendation.txt
 README.md
 
 ---
+
+# Task12 - Customer Churn Analysis – Power BI
+# Project Description
+This project analyzes a Customer Churn dataset using Power BI.
+The data is cleaned and transformed using Power Query, and basic visuals are created to understand customer churn patterns.
+
+---
+# Tools Used
+Power BI Desktop
+Power Query
+Kaggle Customer Churn Dataset
+
+---
+# Data Transformation Steps
+Removed unnecessary columns
+Renamed column headers
+Handled missing values
+Changed correct data types
+Created conditional columns (Churn Status, Tenure Group)
+
+---
+# Visualizations Created
+Bar chart: Customers by Tenure Group
+Pie chart: Churn vs Retained customers
+Card: Total customers
+
+---
+# Files Included
+customer_churn.pbix – Power BI file
+README.md – Project documentation
+
+---
+# Outcome
+The dashboard provides a clear overview of customer churn and retention trends.
+
+---
