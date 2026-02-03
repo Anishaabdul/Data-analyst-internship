@@ -1,0 +1,7 @@
+Transformation_notes
+• Removed unnecessary columns
+• Renamed column headers
+• Fixed missing values in Total Charges
+• Changed correct data types
+• Created conditional columns for churn status and tenure group
+• Loaded clean data and built visuals
