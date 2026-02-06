@@ -376,3 +376,49 @@ README.md – Project documentation
 The dashboard provides a clear overview of customer churn and retention trends.
 
 ---
+# Task 13: BI Dashboard Storytelling – KPI Report
+# Objective
+Create an executive-level BI dashboard that highlights key business performance metrics and insights using a retail sales dataset.
+
+---
+# Tools Used
+Power BI Desktop
+(Alternative: Tableau Public)
+
+---
+# Dataset
+Global Superstore Dataset / Retail Sales Dataset
+
+---
+# KPIs Created
+Total Sales
+Total Profit
+Profit Margin
+
+---
+# Dashboard Features
+KPI cards for Sales, Profit, and Margin
+Sales trend over time
+Category-wise sales breakdown
+Region-wise performance analysis
+Top 10 products by sales
+Interactive slicers (Region, Date, Category)
+Insights section with key findings
+
+---
+# Deliverables
+dashboard.pbix (Power BI file)
+dashboard_export.pdf
+insights_task13.txt
+
+---
+# Insights Summary
+Sales show a clear trend over time with seasonal peaks
+Certain regions contribute higher profit despite lower sales
+Top products drive a significant portion of total revenue
+
+---
+# Outcome
+An executive-ready BI dashboard that enables quick decision-making using clear KPIs and visual storytelling.
+
+---
