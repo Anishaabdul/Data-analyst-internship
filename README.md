@@ -422,3 +422,48 @@ Top products drive a significant portion of total revenue
 An executive-ready BI dashboard that enables quick decision-making using clear KPIs and visual storytelling.
 
 ---
+# Task 14: ETL Mini Pipeline (Extract → Transform → Load)
+# Overview
+This task demonstrates a simple ETL (Extract, Transform, Load) pipeline using Python.
+The goal is to load raw data, clean and transform it, and then store the processed data for analysis.
+
+---
+# Tools & Technologies
+Python
+pandas
+Jupyter Notebook / Google Colab
+CSV files
+SQLite database
+
+---
+# Dataset
+Retail Sales Dataset
+Customer Churn Dataset
+E-commerce Dataset
+
+---
+# ETL Steps
+Load raw CSV dataset from Kaggle
+Create folders: raw, processed, output
+Handle missing values and remove duplicates
+Standardize column names and data types
+Create derived columns (e.g., profit margin, segments)
+Split data into separate tables (customers, orders, products)
+Load processed data into CSV files and SQLite database
+Validate row counts before and after transformation
+Document the complete ETL process
+
+---
+# Deliverables
+task14_etl.ipynb
+Processed CSV file(s)
+database.sqlite
+README.md
+
+---
+# Final Outcome
+Understanding of how ETL pipelines work in real-world analytics
+Hands-on experience with data extraction, transformation, and loading
+Improved data organization for analysis and reporting
+
+---
