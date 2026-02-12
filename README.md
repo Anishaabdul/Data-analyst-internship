@@ -461,6 +461,47 @@ database.sqlite
 README.md
 
 ---
+# Task 15: Customer Segmentation (RFM Analysis)
+# Objective
+To perform Customer Segmentation using RFM (Recency, Frequency, Monetary) Analysis in Python and identify different customer groups for business targeting.
+
+---
+# Tools Used
+Python
+Google Colab / Jupyter Notebook
+Libraries: pandas, numpy, matplotlib
+
+---
+# Dataset
+Online Retail / E-Commerce Dataset
+Contains customer purchase transaction details
+
+---
+# Steps Performed
+Loaded and cleaned the dataset (removed null and cancelled invoices).
+Converted Invoice Date to datetime format.
+
+---
+# Calculated:
+Recency – Days since last purchase
+Frequency – Number of purchases
+Monetary – Total spending
+Created RFM score using quantiles.
+Assigned customer segments (Champions, Loyal, At Risk, etc.).
+Visualized segment distribution using bar chart.
+Exported results to CSV file.
+
+---
+# Deliverables
+task15_rfm.ipynb
+rfm_segments.csv
+segment_actions.txt
+
+---
+# Outcome
+Successfully segmented customers based on purchasing behavior and provided business recommendations for each segment.
+
+---
 # Final Outcome
 Understanding of how ETL pipelines work in real-world analytics
 Hands-on experience with data extraction, transformation, and loading
