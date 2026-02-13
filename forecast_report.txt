@@ -1,0 +1,6 @@
+WALMART SALES FORECASTING REPORT
+================================
+
+Model Used: Exponential Smoothing
+MAE: 470.3015522444264
+MAPE: 10.29%
