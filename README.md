@@ -508,3 +508,65 @@ Hands-on experience with data extraction, transformation, and loading
 Improved data organization for analysis and reporting
 
 ---
+# Task 16: Walmart Sales Forecasting Project
+# Project Overview
+This project performs time series forecasting on Walmart weekly sales data.
+The objective is to analyze historical sales trends and predict future sales using forecasting models.
+
+---
+# Dataset Used
+Dataset: Walmart Store Sales (train.csv)
+Columns Used:
+  - Store
+  - Dept
+  - Date
+  - Weekly_Sales
+  - IsHoliday
+The dataset contains historical weekly sales data across multiple stores and departments.
+
+---
+# Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Statsmodels (Exponential Smoothing)
+
+---
+# Project Steps
+1. Data Loading
+2. Date Conversion and Sorting
+3. Monthly Aggregation of Weekly Sales
+4. Train-Test Split (80%-20%)
+5. Model Building using Exponential Smoothing
+6. Forecast Generation
+7. Model Evaluation using:
+   - MAE (Mean Absolute Error)
+   - MAPE (Mean Absolute Percentage Error)
+8. Export Forecast Results to CSV
+9. Generate Forecast Report (.txt)
+
+---
+# Model Used
+Exponential Smoothing (Additive Trend)
+This model captures trend patterns in time series data and is suitable for sales forecasting.
+
+---
+# Evaluation Metrics
+ MAE: Measures average absolute prediction error.
+ MAPE: Measures percentage error between actual and predicted values.
+Lower values indicate better model performance.
+
+---
+# Output Files
+ task16.ipynb (Jupyter Notebook)
+ forecast_output.csv (Predicted vs Actual Sales)
+ forecast_report.txt (Model summary and performance report)
+
+---
+# Conclusion
+The forecasting model successfully predicts future sales trends based on historical data.
+The results can help in demand planning and business decision-making.
+
+---
+
